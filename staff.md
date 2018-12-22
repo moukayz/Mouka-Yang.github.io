@@ -1,5 +1,6 @@
 --- 
 title: Staff 
+layout: page
 ---
 <h1>Staff</h1>
 
