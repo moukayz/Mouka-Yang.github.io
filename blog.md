@@ -1,6 +1,6 @@
 ---
+layout: default
 title: Blog
-layout: page
 ---
 <h1>Latest Posts</h1>
 
