@@ -11,7 +11,7 @@ The PCR contains a substructure called Processor Control Block (KPRCB), which co
 
 We can get much information about current thread and process through the PCR directly instead of calling documented APIs. See [Wikipedia link](https://en.wikipedia.org/wiki/Win32_Thread_Information_Block) .
 
-**(Following code are all based on x64 platform, the code in x86 are similar except the offset of corresponding fields) **
+**(Following code are all based on x64 platform, the code in x86 are similar except the offset of corresponding fields)**
 
 ## Get IDT
 
