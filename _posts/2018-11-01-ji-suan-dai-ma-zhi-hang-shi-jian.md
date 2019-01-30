@@ -1,7 +1,7 @@
 ---
 title: 计算代码执行时间
 categories:
-- Python tricks
+- Python Tricks
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 <!-- more -->

@@ -1,7 +1,7 @@
 ---
 title: 一次检查多个标志
 categories:
-- Python tricks
+- Python Tricks
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 <!-- more -->

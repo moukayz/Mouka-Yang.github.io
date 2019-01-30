@@ -1,7 +1,7 @@
 ---
 title: 字典排序
 categories:
-- Python tricks
+- Python Tricks
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 <!-- more -->

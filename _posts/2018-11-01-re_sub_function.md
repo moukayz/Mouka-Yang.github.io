@@ -1,7 +1,7 @@
 ---
 title: re.sub使用替换函数
 categories:
-- Python tricks
+- Python Tricks
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 <!-- more -->
