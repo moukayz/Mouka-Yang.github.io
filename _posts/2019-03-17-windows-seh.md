@@ -1,5 +1,5 @@
 ---
-title: Glance at Winodws Standard Exception Handler(SEH) and Vectored Exception Handler(VEH)
+title: Glance at Winodws SEH and VEH
 categories:
 - Windows Internal
 ---
@@ -7,13 +7,13 @@ categories:
 
  *This post simply describes the mechanism of the Windows exception handling, for more detailed information see:*
 
-http://bytepointer.com/resources/gordon_win32_exception_handling.htm
+[http://bytepointer.com/resources/gordon_win32_exception_handling.htm](http://bytepointer.com/resources/gordon_win32_exception_handling.htm)
 
-http://bytepointer.com/resources/pietrek_crash_course_depths_of_win32_seh.htm
+[http://bytepointer.com/resources/pietrek_crash_course_depths_of_win32_seh.htm](http://bytepointer.com/resources/pietrek_crash_course_depths_of_win32_seh.htm)
 
-http://bytepointer.com/resources/pietrek_vectored_exception_handling.htm
+[http://bytepointer.com/resources/pietrek_vectored_exception_handling.htm](http://bytepointer.com/resources/pietrek_vectored_exception_handling.htm)
 
-## SEH
+## Standard Exception Handler(SEH)
 
 In Visual C++ compiler, the SEH is implemented by the keywords `__try`, `__except` and `__finally`.
 
@@ -51,7 +51,7 @@ In general,
 
 
 
-## VEH
+## Vectored Exception Handler(VEH)
 
 In a nutshell, vectored exception handling is similar to regular SEH, with three key differences:
 
