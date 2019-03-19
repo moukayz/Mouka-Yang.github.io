@@ -17,8 +17,6 @@ categories:
 
 In Visual C++ compiler, the SEH is implemented by the keywords `__try`, `__except` and `__finally`.
 
-In general,
-
  `__try` block is the protected area, which exceptions may occur.
 
 `__except`block is the exception handler which programmers should customize to handle exceptions.
@@ -27,13 +25,9 @@ In general,
 
 ### Steps for exception handling
 
-1. When a exception occurs, Windows check if the program is being debugged, 
+1. When a exception occurs, Windows check if the program is being debugged, if so, Windows will **notify the debugger** of the exception by suspending the program and sending ` EXCEPTION_DEBUG_EVENT`  (0x1) to the debugger.
 
-   if so, Windows will **notify the debugger** of the exception by suspending the program and sending ` EXCEPTION_DEBUG_EVENT`  (0x1) to the debugger.
-
-2. If the program is not being debugged or if the exception is not dealt with by the debugger,
-
-   the system sends the exception to your per-thread exception handler.  A per-thread handler is installed at run-time(installed by `__except` or `__finally`). and **is pointed to by the first dword in the Thread Information Block** (whose address is at FS:[0] in x86 and GS:[0] in x64)
+2. If the program is not being debugged or if the exception is not dealt with by the debugger,the system sends the exception to your per-thread exception handler.  A per-thread handler is installed at run-time (installed by `__except` or `__finally`). and **is pointed to by the first dword in the Thread Information Block** (whose address is at FS:[0] in x86 and GS:[0] in x64)
 
 3. The per-thread exception handler can try to deal with the exception, or leave it for handlers further up the chain.
 
