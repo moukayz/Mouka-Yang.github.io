@@ -85,6 +85,7 @@
   padding: 0;
   @include fluid-type($min-vw, $max-vw, $h2-min, $h2-max);
   font-weight: 700;
+  font-family: "STXingkai", "华文行楷" ,serif;
 
   a {
     color: $text-color;
