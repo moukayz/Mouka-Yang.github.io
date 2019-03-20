@@ -18,6 +18,7 @@ The **static** storage class means that the variable or object **is** **allocate
 
   - the variable or function has **internal linkage**, 
   - the variable has **static duration** and the compiler **initializes it to 0** unless you specify another value.
+  - the variables or objects are initialized **before entry to the program's main function**
 
 - Local static variable (defined in a function): 
 
@@ -112,8 +113,6 @@ extern const int i = 42; // extern const definition
 //fileB.cpp
 extern const int i;  // declaration only. same as i in FileA
 ```
-
-
 
 For example, the following code shows two **extern** declarations. 
 

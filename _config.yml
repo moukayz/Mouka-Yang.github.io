@@ -7,8 +7,8 @@
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
-title: "业精于勤而荒于嬉，行成于思而毁于随"
-description: ""
+title: "the Mouka's site"
+description: "业精于勤而荒于嬉，行成于思而毁于随"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 avatarurl: /images/favicon.jpg
