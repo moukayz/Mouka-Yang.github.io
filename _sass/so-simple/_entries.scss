@@ -26,16 +26,26 @@
 
 .entry-title {
   margin-bottom: 0.5rem;
-  font-family: $title-font-family;
+  font-family: 'Kalam', 'Righteous', 'Ma Shan Zheng', cursive;
+  // font-family: $title-font-family;
   font-weight: $entry-title-weight;
-  font-style: italic;
   letter-spacing: -1px;
-  word-wrap: break-word; /* break long words that could overflow */
+  word-wrap: break-word;
+  /* break long words that could overflow */
 
   a {
     text-decoration: none;
   }
 }
+
+// .p-name {
+//   font-family: 'Kalam','Righteous', 'Ma Shan Zheng', cursive;
+// }
+
+.page-taxonomy {
+  font-family: 'Righteous', cursive;
+}
+
 
 .entry-image {
   -webkit-box-ordinal-group: 0;
@@ -46,6 +56,7 @@
 }
 
 .entry-meta {
+
   .entry-date,
   .read-time {
     font-family: $meta-font-family;
@@ -53,7 +64,7 @@
     white-space: nowrap;
   }
 
-  .read-time + .entry-date::before {
+  .read-time+.entry-date::before {
     content: "\2022";
     padding: 0 0.5em;
   }
@@ -89,14 +100,15 @@
     order: 3;
 
     /* remove space after last child element */
-    > *:last-child {
+    >*:last-child {
       margin-bottom: 0;
     }
   }
 
   .entry-excerpt {
+
     /* normalize font sizes */
-    > * {
+    >* {
       font-size: 1em;
     }
   }
@@ -152,14 +164,15 @@
     order: 3;
 
     /* remove space after last child element */
-    > *:last-child {
+    >*:last-child {
       margin-bottom: 0;
     }
   }
 
   .entry-excerpt {
+
     /* normalize font sizes */
-    > * {
+    >* {
       font-size: 1em;
     }
   }

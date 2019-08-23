@@ -10,9 +10,9 @@
 }
 
 .page-title {
-  @include fluid-type($min-vw, $max-vw, 48px, 60px);
+  @include fluid-type($min-vw, $max-vw, 48px, 80px);
   margin-bottom: 0.5em;
-  font-family: $title-font-family;
+  font-family: 'Amatic SC', 'Ma Shan Zheng';
   font-weight: $page-title-weight;
   font-style: italic;
   letter-spacing: -2px;
@@ -32,7 +32,7 @@
   @include breakpoint($large) {
     margin-top: (-2 * $site-logo-height) / 2;
   }
-  
+
   img {
     width: 100%;
   }
@@ -52,7 +52,7 @@
   opacity: 0.5;
   border-radius: 4px 0 0 0;
 
-  > * {
+  >* {
     margin: 0;
     padding: 0;
   }
@@ -82,7 +82,7 @@
     }
   }
 
-  .read-time + .page-date::before {
+  .read-time+.page-date::before {
     content: "\2022";
     padding: 0 0.5em;
 
