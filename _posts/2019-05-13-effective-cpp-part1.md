@@ -1,7 +1,7 @@
 ---
 title: Effective C++ —— Part 1
 categories:
-- C/C++
+- Cpp
 
 
 ---

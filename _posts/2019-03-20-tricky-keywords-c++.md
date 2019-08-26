@@ -1,7 +1,7 @@
 ---
-title: Tricky Keyword in C/C++
+title: Tricky Keyword in Cpp
 categories:
-- C/C++
+- Cpp
 
 ---
 

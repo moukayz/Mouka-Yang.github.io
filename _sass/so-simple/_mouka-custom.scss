@@ -2,11 +2,17 @@
   Custom 
    ========================================================================== */
 .e-content {
-    font-family: 'Tillana', 'Long Cang', cursive;
+    font-family: '雅黑', 'Noto Sans SC', 'Tillana', 'Long Cang', cursive;
+    font-weight: 400;
 
     h1,
-    h2 {
-        font-family: 'Tillana', 'Long Cang', cursive;
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Noto Sans SC', 'Tillana', 'Long Cang', cursive;
+        margin-top: 1.5rem !important;
     }
 
     ;
@@ -32,5 +38,16 @@
 
 .entry-excerpt {
     font-family: 'Tillana', 'Long Cang', cursive;
+
+}
+
+code.highlighter-rouge {
+    color: #d14;
+    border: 1px solid #e1e1e8;
+}
+
+div.highlight {
+    border: 1px solid #e1e1e8;
+    border-radius: 2px;
 
 }
